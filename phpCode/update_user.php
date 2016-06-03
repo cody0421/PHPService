@@ -26,6 +26,7 @@ $image_path = isset($_POST['image_path'])?  $_POST['image_path']:null;
 $password = isset($_POST['password'])?$_POST['password']:null;
 $latitude = isset($_POST['latitude'])?$_POST['latitude']:-1;//纬度
 $longitude = isset($_POST['longitude'])?$_POST['longitude']:-1;//经度
+$age = isset($_POST['age'])?$_POST['age']:0;
 
 
 if(empty($account)){
